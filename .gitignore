@@ -7,9 +7,9 @@ venv/
 .env/
 
 
-# Ignore data folder
-data/*
-!data/*.dvc
+# ignore everything in data/, but allow DVC metafiles
+/data/*
+!/data/*.dvc
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
